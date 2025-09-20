@@ -44,7 +44,7 @@
 
 添加 Base64 订阅：
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
-- [GhProxy.cfd](https://ghproxy.cfd/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
+- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt)
 - 此处不公开部分私有镜像站
 
 以下链接可能不是最新，但绝对不会被封：
@@ -55,7 +55,7 @@
 
 或添加 Clash Meta 订阅：（如果使用的是原版 Clash，请将链接最后的 `.meta.yml` 替换成 `.yml`。我们始终建议您使用 Clash Meta 而不是已被废弃的 Clash。**提醒：Clash Meta (mihomo) 是有手机版的！还在用 Clash For Android 的用户请尽快迁移至 [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid)！**）
 - [原始链接](https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
-- [GhProxy.cfd](https://ghproxy.cfd/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
+- [GhProxy.net](https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml)
 - 此处不公开部分私有镜像站
 
 以下链接可能不是最新，但绝对不会被封：
