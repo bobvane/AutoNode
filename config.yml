@@ -5,7 +5,7 @@ NoMoreWalls:
     🌐 突破锁区: region
     DIRECT: direct
   categories:
-    redir: ["->", 中转, OVERALL]
+    redir: [Relay, 中转, OVERALL]
     JP: [JP, Japan, 日, 东京, 🇯🇵]
     US: [US, United States, 美, 🇺🇸]
     TW: [TW, Taiwan, 台, 🇹🇼, OVERALL]
@@ -100,6 +100,8 @@ dns:
   fallback:
     - 8.8.8.8
     - 1.1.1.1
+  nameserver-policy:
+    'geosite:googlefcm': 'https://doh.pub/dns-query'
 
 global-client-fingerprint: chrome
 tcp-concurrent: true
@@ -230,11 +232,13 @@ rules:
   - DOMAIN-SUFFIX,lsposed.org,🚀 选择代理
   
   # - DOMAIN-SUFFIX,googleapis.cn,DIRECT
+  - DOMAIN,dl.google.com,❓ 疑似国内
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，多数可直连，连不上 Google Play 会自动更换
   - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
   - DOMAIN-SUFFIX,gvt1-cn.com,DIRECT
   - DOMAIN,redirector.gvt1.com,DIRECT # 会解析到你使用的运营商
   - DOMAIN,fonts.googleapis.com,DIRECT
+  - GEOSITE,googlefcm,❓ 疑似国内
   # gvt1.com 不加任何规则，根据 GEOIP 判断是否走代理
   
   - DOMAIN-SUFFIX,gitlab.io,🚀 选择代理
@@ -250,7 +254,6 @@ rules:
   - DOMAIN,wiki.metacubex.one,🚀 选择代理
   - DOMAIN,safebrowsing.googleapis.com,DIRECT
 
-  - DOMAIN,dl.google.com,❓ 疑似国内
   - DOMAIN-SUFFIX,taptap.io,🚀 选择代理
   - DOMAIN-SUFFIX,tap.io,🚀 选择代理
   # - DOMAIN-SUFFIX,tapapis.com,🌐 突破锁区
@@ -259,7 +262,7 @@ rules:
   - DOMAIN-SUFFIX,vercel.app,🚀 选择代理
   - DOMAIN-SUFFIX,netlify.app,🚀 选择代理
   - DOMAIN-SUFFIX,huggingface.co,🚀 选择代理
-  - DOMAIN-SUFFIX,hf.co,🚀 选择代理
+  # - DOMAIN-SUFFIX,hf.co,🚀 选择代理
   - DOMAIN,www.skype.com,🚀 选择代理
   - DOMAIN-SUFFIX,googletagmanager.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,community.oneplus.com,🚀 选择代理
@@ -274,6 +277,7 @@ rules:
   - DOMAIN-SUFFIX,xhscdn.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
+  - DOMAIN-SUFFIX,luogu.com,🚀 选择代理
 
 
   # 国内网站（优先，避免 google.cn 走代理）

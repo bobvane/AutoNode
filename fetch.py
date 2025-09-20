@@ -120,11 +120,11 @@ DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
 
 STOP_FAKE_NODES = """vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NjU0Rlx1NjExRlx1NjVGNlx1NjcxRlx1RkYwQ1x1NjZGNFx1NjVCMFx1NjY4Mlx1NTA1QyIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjEiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NTk4Mlx1NjcwOVx1OTcwMFx1ODk4MVx1RkYwQ1x1ODFFQVx1ODg0Q1x1NjQyRFx1NUVGQSIsDQogICJhZGQiOiAiMC4wLjAuMCIsDQogICJwb3J0IjogIjIiLA0KICAiaWQiOiAiODg4ODg4ODgtODg4OC04ODg4LTg4ODgtODg4ODg4ODg4ODg4IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIndlYi41MS5sYSIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogImNocm9tZSINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUxNlx1NzU0Q1x1NTNDRFx1NkNENVx1ODk3Rlx1NjVBRlx1NjIxOFx1NEU4OVx1ODBEQ1x1NTIyOTgwXHU1NDY4XHU1RTc0XHVGRjAxIiwNCiAgImFkZCI6ICIwLjAuMC4wIiwNCiAgInBvcnQiOiAiMyIsDQogICJpZCI6ICI4ODg4ODg4OC04ODg4LTg4ODgtODg4OC04ODg4ODg4ODg4ODgiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAid2ViLjUxLmxhIiwNCiAgImFscG4iOiAiaHR0cC8xLjEiLA0KICAiZnAiOiAiY2hyb21lIg0KfQ==
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUyRFx1NTM0RVx1NEVCQVx1NkMxMVx1NTE3MVx1NTQ4Q1x1NTZGRFx1NjIxMFx1N0FDQjc2XHU1NDY4XHU1RTc0XHVGRjAxIiwNCiAgImFkZCI6ICIwLjAuMC4wIiwNCiAgInBvcnQiOiAiMyIsDQogICJpZCI6ICI4ODg4ODg4OC04ODg4LTg4ODgtODg4OC04ODg4ODg4ODg4ODgiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAid2ViLjUxLmxhIiwNCiAgImFscG4iOiAiaHR0cC8xLjEiLA0KICAiZnAiOiAiY2hyb21lIg0KfQ==
 """
 
 d = datetime.datetime.now()
-if STOP or ((d.month, d.day) in ((6, 4), (7, 1), (9, 3), (10, 1)) and not (LOCAL or PROXY)):
+if STOP or ((d.month, d.day) in ((6, 4), (7, 1), (10, 1)) and not (LOCAL or PROXY)):
     DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
     NAME_SHOW_TYPE = NAME_NO_FLAGS = NAME_SHOW_SRC = False
     BANNED_WORDS = []
@@ -133,14 +133,14 @@ session = requests.Session()
 session.trust_env = False
 if PROXY and not PROXY == 'NONE':
     session.proxies = {'http': PROXY, 'https': PROXY}
-session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) Clash-verge/v2.3.1 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58'
+session.headers["User-Agent"] = 'Mozilla/5.0 (X11; Linux x86_64) Clash-verge/v2.4.2 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
 session.mount('file://', FileAdapter())
 
 class UnsupportedType(Exception): pass
 class NotANode(Exception): pass
 
 class Node:
-    names: Set[str] = set()
+    gNames: Set[str] = set()
     DATA_TYPE = Dict[str, Any]
 
     def __init__(self, data: Union[DATA_TYPE, str]) -> None:
@@ -155,7 +155,7 @@ class Node:
         if 'password' in self.data:
             self.data['password'] = str(self.data['password'])
         self.data['type'] = self.type
-        self.name: str = self.data['name']
+        self.names: Set[str] = {self.data['name']}
 
     def __str__(self):
         return self.url
@@ -438,29 +438,58 @@ class Node:
     _load_https = _load__legacy
     _load_socks5 = _load__legacy
 
-    def format_name(self, max_len=30) -> None:
-        name = self.name
+    def update(self, node: 'Node'):
+        self.data.update(node.data)
+        self.names.union(node.names)
+
+    @property
+    def name(self):
+        def rate(name: str):
+            r = 0
+            if name.startswith('@'):
+                r -= 5
+            if any(127462<=ord(c)<=127487 for c in name):
+                r += 6
+            if '\N{RIGHT-TO-LEFT MARK}' in name:
+                r -= 3
+            if any(word in name for word in BANNED_WORDS):
+                r -= 100
+            return r
+        return sorted(list(self.names), key=rate)[0]
+
+    def format_name(self, max_len=30):
+        name = [ord(c) for c in self.name]
+        for ch in '\N{MATHEMATICAL BOLD CAPITAL A}\N{MATHEMATICAL SANS-SERIF BOLD CAPITAL A}':
+            name = [
+                c - ord(ch) + ord('A') if ord(ch) <= c < ord(ch)+26 else c
+                for c in name
+            ]
+        for ch in ('\N{MATHEMATICAL BOLD SMALL A}\N{MATHEMATICAL SANS-SERIF BOLD SMALL A}'
+                    +'\N{REGIONAL INDICATOR SYMBOL LETTER A}'*NAME_NO_FLAGS):
+            name = [
+                c - ord(ch) + ord('a') if ord(ch) <= c < ord(ch)+26 else c
+                for c in name
+            ]
+        name = ''.join([chr(c) for c in name])
+        name = name.replace(chr(10144), '->')
         for word in BANNED_WORDS:
             name = name.replace(word, '*'*len(word))
         if len(name) > max_len:
-            name = name[:max_len]+'...'
-        # Merged from #35
-        if NAME_NO_FLAGS:
-            # 地区旗帜符号 A - Z 对应 127462 - 127487
-            name = ''.join([
-                chr(ord(c)-127462+ord('A')) if 127462<=ord(c)<=127487 else c
-                for c in name
-            ])
+            name = name[:max_len]
+            if '\N{RIGHT-TO-LEFT MARK}' in name:
+                name += '\N{LEFT-TO-RIGHT MARK}'
+                print(name)
+            name += '...'
         if NAME_SHOW_TYPE:
             if self.type in ('ss', 'ssr', 'vless', 'tuic'):
                 tp = self.type.upper()
             else:
                 tp = self.type.title()
             name = f'[{tp}] ' + name
-        if name in Node.names:
+        if name in Node.gNames:
             i = 0
             new = name
-            while new in Node.names:
+            while new in Node.gNames:
                 i += 1
                 new = f"{name} #{i}"
             name = new
@@ -717,7 +746,7 @@ class Source():
         self.cfg: Dict[str, Any] = {}
         self.exc_queue: List[str] = []
 
-    def gen_url(self) -> None:
+    def gen_url(self):
         assert isinstance(self.url_source, str)
         tags = self.url_source.split()
         url = tags.pop()
@@ -818,7 +847,7 @@ class Source():
             ret = content.decode('ignore')
         return ret
 
-    def parse(self) -> None:
+    def parse(self):
         try:
             text = self.content
             if isinstance(text, str):
@@ -855,12 +884,12 @@ class DomainTree:
         self.children: Dict[str, __class__] = {}
         self.here: bool = False
 
-    def insert(self, domain: str) -> None:
+    def insert(self, domain: str):
         segs = domain.split('.')
         segs.reverse()
         self._insert(segs)
 
-    def _insert(self, segs: List[str]) -> None:
+    def _insert(self, segs: List[str]):
         if not segs:
             self.here = True
             return
@@ -870,12 +899,12 @@ class DomainTree:
         del segs[0]
         child._insert(segs)
 
-    def remove(self, domain: str) -> None:
+    def remove(self, domain: str):
         segs = domain.split('.')
         segs.reverse()
         self._remove(segs)
 
-    def _remove(self, segs: List[str]) -> None:
+    def _remove(self, segs: List[str]):
         self.here = False
         if not segs:
             self.children.clear()
@@ -907,7 +936,7 @@ def extract(url: str) -> Union[Set[str], int]:
 merged: Dict[int, Node] = {}
 unknown: Set[str] = set()
 used: Dict[int, Dict[int, str]] = {}
-def merge(source_obj: Source, sourceId=-1) -> None:
+def merge(source_obj: Source, sourceId=-1):
     global merged, unknown
     sub = source_obj.sub
     if not sub: print("空订阅，跳过！", end='', flush=True); return
@@ -922,12 +951,12 @@ def merge(source_obj: Source, sourceId=-1) -> None:
         except: traceback.print_exc()
         else:
             n.format_name()
-            Node.names.add(n.data['name'])
+            Node.gNames.add(n.data['name'])
             hashn = hash(n)
             if hashn not in merged:
                 merged[hashn] = n
             else:
-                merged[hashn].data.update(n.data)
+                merged[hashn].update(n)
             if hashn not in used:
                 used[hashn] = {}
             used[hashn][sourceId] = n.name
@@ -944,7 +973,7 @@ def raw2fastly(url: str) -> str:
         return "https://ghproxy.cfd/"+url
     return url
 
-def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
+def merge_adblock(adblock_name: str, rules: Dict[str, str]):
     print("正在解析 Adblock 列表... ", end='', flush=True)
     blocked: Set[str] = set()
     unblock: Set[str] = set()

@@ -38,11 +38,11 @@ https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.ya
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml#max=100
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml#max=100
 # https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yaml#max=100
+https://raw.githubusercontent.com/Misaka-blog/chromego_merge/refs/heads/main/sub/merged_proxies_new.yaml#ignore=vmess,ss,ssr,trojan
 
 # Same, TG Channels
 https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2
 https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2
-https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
 
 
 # 不更新
@@ -86,7 +86,7 @@ https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
 # Copied from https://github.com/ClodQiu/Clash.Base64/blob/Grey/Node.Address
 # https://vpnyyds.link/free
 # !https://jc.openxai.link/
-!https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads
+# !https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads
 
 
 # Airports
