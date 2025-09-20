@@ -1,4 +1,12 @@
 proxies:
+- fast-open: true
+  name: 'United States_Los Angeles_hy2_... #3'
+  password: dongtaiwang.com
+  port: 35205
+  server: 104.168.10.176
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 🇺🇸 美国2|@ripaojiedian

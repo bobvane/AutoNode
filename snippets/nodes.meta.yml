@@ -89,7 +89,41 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: France_Paris_hysteria_81
+  port: 50011
+  protocol: udp
+  server: 62.210.127.217
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000
+  fast-open: true
+  name: The Netherlands_Amsterdam_hy_3
+  port: 37519
+  ports: 10000-20000
+  protocol: udp
+  server: 109.104.153.91
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 1000
+- fast-open: true
+  name: 'United States_Los Angeles_hy2_... #3'
+  password: dongtaiwang.com
+  port: 35205
+  server: 104.168.10.176
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- name: 🇩🇪@EXPRESSVPN_420 -> همه اپرات...
   password: 3QlSMKyqLp
   port: 443
   server: android.yas-nowin.ir
@@ -153,7 +187,7 @@ proxies:
   sni: de.youyacloud.me
   tls: false
   type: hysteria2
-- name: '𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
+- name: 'Join -> Telegram: @V2Gatee'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -193,7 +227,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+- name: 'Join -> Telegram: @V2Gatee #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -211,7 +245,7 @@ proxies:
   sni: yue-ru.yuetoto.net
   tls: false
   type: hysteria2
-- name: '𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #2'
+- name: 'Join -> Telegram: @V2Gatee #2'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
