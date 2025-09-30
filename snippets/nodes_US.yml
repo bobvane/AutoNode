@@ -1,6 +1,7 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇺🇸 美国|@ripaojiedian
+  name: 美国|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
   server: 160.16.117.182
@@ -8,7 +9,8 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸 美国2|@ripaojiedian
+  name: 美国2|@ripaojiedian
+  network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 5343
   server: 160.16.117.182
@@ -26,17 +28,13 @@ proxies:
   tls: false
   type: vmess
   uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
-- name: 美国|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 美国3|@ripaojiedian
   network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4317
-  server: 160.16.117.182
-  sni: www.nintendogames.net
-  type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 160.16.117.182
-  sni: www.nintendogames.net
-  type: trojan
+  port: '57518'
+  server: 23.236.68.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
