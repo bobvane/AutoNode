@@ -316,7 +316,7 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
-- name: '@IRAN_V2RAY1 #2'
+- name: 🔐 @AblNet7 🇸🇪 机场推荐
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -336,6 +336,14 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
+- name: 🔐 @AblNet7 🇺🇸 机场推荐
+  password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+  port: 3000
+  server: 836902-20.9966661.xyz
+  skip-cert-verify: false
+  sni: 836902-20.9966661.xyz
+  tls: false
+  type: hysteria2
 - name: 'All-@IRAN_V2RAY1 #1'
   obfs: salamander
   obfs-password: qBbeISsJ8AK48fZW
@@ -344,6 +352,14 @@ proxies:
   server: de.youyacloud.me
   skip-cert-verify: true
   sni: de.youyacloud.me
+  tls: false
+  type: hysteria2
+- name: '🔐 @AblNet7 🇺🇸 机场推荐 #1'
+  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
+  port: 63979
+  server: 113.192.61.19
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
@@ -506,7 +522,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: 🇺🇲@FreakConfig
+- name: '🔐 @AblNet7 🇺🇸 机场推荐 #2'
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23891
   server: 108.165.213.197
@@ -537,6 +553,14 @@ proxies:
   server: 138.124.60.198
   skip-cert-verify: true
   sni: cdnjs.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: 🔐 @AblNet7 🇨🇦 机场推荐
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 150.230.28.100
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '@Daily_Configs #12'
@@ -647,6 +671,16 @@ proxies:
   server: 138.124.60.198
   skip-cert-verify: true
   sni: cdnjs.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: Tel:@Daily_Configs
+  obfs: salamander
+  obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
+  password: perspoliszibatarineshghjahan
+  port: 443
+  server: 80.85.241.237
+  skip-cert-verify: true
+  sni: stackoverflow.com
   tls: false
   type: hysteria2
 - name: '@Daily_Configs #19'
