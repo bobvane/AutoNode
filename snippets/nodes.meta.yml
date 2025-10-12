@@ -182,14 +182,6 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
-- name: 🇳🇱@FreakConfig
-  password: 571ec94e-613c-430a-93de-397d3d237475
-  port: 22157
-  server: hshl.huasuan666.top
-  skip-cert-verify: true
-  sni: hshl.huasuan666.top
-  tls: false
-  type: hysteria2
 - name: '@Daily_Configs #1'
   password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
   port: 54265
@@ -198,7 +190,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #1'
+- name: 🇳🇱@FreakConfig
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
@@ -208,7 +200,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #3'
+- name: '🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
@@ -218,7 +210,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #4'
+- name: '🇳🇱@FreakConfig #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
@@ -362,16 +354,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
-  obfs: salamander
-  obfs-password: V2RayyNGvpnuushdhMiracle
-  password: 9M8uE6ks0h
-  port: 443
-  server: 209.250.254.12
-  skip-cert-verify: true
-  sni: www.oxfamintermon.org
-  tls: false
-  type: hysteria2
 - name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #2'
   obfs: salamander
   obfs-password: MiraCLeOPV2RayyNGvpntheBestt
@@ -392,7 +374,7 @@ proxies:
   sni: hacks.mozilla.org
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #5'
+- name: '🇳🇱@FreakConfig #4'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -402,7 +384,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #7'
+- name: '🇳🇱@FreakConfig #6'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -432,7 +414,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #8'
+- name: '🇳🇱@FreakConfig #7'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -442,7 +424,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #9'
+- name: '🇳🇱@FreakConfig #8'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -635,7 +617,7 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #17'
+- name: '@Daily_Configs #16'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: joindailyconfigschanel
@@ -655,7 +637,7 @@ proxies:
   sni: hacks.mozilla.org
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #18'
+- name: '@Daily_Configs #17'
   password: miaoge110
   port: 40112
   server: 45.58.38.153
@@ -683,7 +665,27 @@ proxies:
   sni: stackoverflow.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #19'
+- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #8'
+  obfs: salamander
+  obfs-password: MiraCLeOPV2RayyNGvpntheBestt
+  password: qdO7WGPPQV
+  port: 8443
+  server: 138.124.60.198
+  skip-cert-verify: true
+  sni: cdnjs.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: 'Telegram: @Daily_Configs'
+  obfs: salamander
+  obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
+  password: theredarmy
+  port: 443
+  server: 80.85.241.237
+  skip-cert-verify: true
+  sni: stackoverflow.com
+  tls: false
+  type: hysteria2
+- name: '@Daily_Configs #18'
   password: zanzendegiazadi
   port: 443
   server: 103.249.133.79
