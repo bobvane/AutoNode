@@ -374,16 +374,6 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
-  obfs: salamander
-  obfs-password: V2RayyNGvpnjdbdbMiracle
-  password: Jjwvt9WrTp
-  port: 443
-  server: 91.107.150.208
-  skip-cert-verify: true
-  sni: hacks.mozilla.org
-  tls: false
-  type: hysteria2
 - name: '🇳🇱@FreakConfig #5'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
@@ -405,6 +395,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #3'
+  obfs: salamander
+  obfs-password: MiraCLeOPV2RayyNGvpntheBestt
+  password: TungFNUPI3
+  port: 8443
+  server: 138.124.60.198
+  skip-cert-verify: true
+  sni: cdnjs.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #4'
   obfs: salamander
   obfs-password: MiraCLeOPV2RayyNGvpntheBest
   password: VPv2NhRZ0u
@@ -494,7 +494,7 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
-- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #4'
+- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #5'
   obfs: salamander
   obfs-password: MiraCLeOPV2RayyNGvpntheBest
   password: aRA6WhGcZJ
@@ -547,7 +547,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #5'
+- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #6'
   obfs: salamander
   obfs-password: MiraCLeOPV2RayyNGvpntheBest
   password: cc6SOTJvEX
@@ -612,7 +612,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'WI-FI--@IRAN_V2RAY1 #2'
+- name: 'Join -> Telegram: @V2Gatee'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -627,7 +627,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #6'
+- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #7'
   obfs: salamander
   obfs-password: MiraCLeOPV2RayyNGvpntheBestt
   password: gIVuzerGCA
@@ -647,7 +647,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #2'
+- name: '🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #1'
   obfs: salamander
   obfs-password: V2RayyNGvpnjdbdbMiracle
   password: jovOmJbL2w
@@ -665,7 +665,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #7'
+- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #8'
   obfs: salamander
   obfs-password: MiraCLeOPV2RayyNGvpntheBestt
   password: oiU5QZYfP2
@@ -685,7 +685,7 @@ proxies:
   sni: stackoverflow.com
   tls: false
   type: hysteria2
-- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #8'
+- name: '🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #9'
   obfs: salamander
   obfs-password: MiraCLeOPV2RayyNGvpntheBestt
   password: qdO7WGPPQV
